@@ -1,7 +1,7 @@
 {
-  "name": "@luxfi/hw-app-luxo",
+  "name": "@luxfi/hw-app-lux",
   "version": "0.2.2",
-  "description": "Obsidisn Ledger Hardware Wallet App for Lux",
+  "description": "Ledger Hardware Wallet App for Lux",
   "license": "MIT",
   "keywords": [
     "Ledger",

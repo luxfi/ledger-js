@@ -1,7 +1,7 @@
 [Github](https://github.com/LedgerHQ/ledgerjs/),
 [Ledger Devs Slack](https://ledger-dev.slack.com/)
 
-## @luxfi/hw-app-luxo
+## @luxfi/hw-app-lux
 
 [Ledger Hardware Wallet](https://www.ledger.com/) JavaScript bindings for [Lux](https://lux.network/), based on [LedgerJS](https://github.com/LedgerHQ/ledgerjs).
 
@@ -11,7 +11,7 @@ Here is a sample app for Node:
 
 ```javascript
 const Transport = require("@ledgerhq/hw-transport-node-hid").default;
-const Lux = require("@luxfi/hw-app-luxo").default;
+const Lux = require("@luxfi/hw-app-lux").default;
 
 const getWalletId = async () => {
   const lux = new Lux(await Transport.create());
@@ -77,7 +77,7 @@ Lux API for Ledger
 #### Examples
 
 ```javascript
-import Lux from "@luxfi/hw-app-luxo";
+import Lux from "@luxfi/hw-app-lux";
 const lux = new Lux(transport);
 ```
 

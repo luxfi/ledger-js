@@ -6,7 +6,7 @@ import createHash from 'create-hash';
  * Lux API
  *
  * @example
- * import Lux from "@luxfi/hw-app-luxo";
+ * import Lux from "@luxfi/hw-app-lux";
  * const lux = new Lux(transport);
  */
 export default class Lux {
