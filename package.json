@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "ledger-js",
+  "scripts": {
+    "build": "pnpm build:all",
+    "build:all": "pnpm build:hw-app-luxo && pnpm build:hw-app-luxz",
+    "build:hw-app-luxo": "pnpm --filter @luxfi/hw-app-luxo build",
+    "build:hw-app-luxz": "pnpm --filter @luxfi/hw-app-luxz build"
+  },
+  "engines": {
+    "pnpm": ">=8"
+  }
+
+}
