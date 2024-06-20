@@ -2,7 +2,7 @@
   "name": "@luxfi/hw-app-luxz",
   "author": "Lux Partners Limited",
   "license": "Apache-2.0",
-  "version": "0.6.8",
+  "version": "0.6.9",
   "description": "Zondax Ledger Hardware Wallet App for Lux",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
