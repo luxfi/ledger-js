@@ -16,7 +16,7 @@ export default {
     input: 'src/index.ts',
     output: {
         dir: 'dist',
-        format: 'cjs',
+        format: 'esm',
         sourcemap: process.env.BUILD === 'production' ? false : true,
         exports: 'named',
     },
@@ -28,7 +28,8 @@ export default {
             tsconfigOverride: {
                 exclude: ['./test/**'],
                 compilerOptions: {
-                    rootDir: '.',
+                    rootDir: './src',
+                    declarationDir: './dist', // Ensure this is set to match your tsconfig
                 },
             },
         }),
